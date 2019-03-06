@@ -1,7 +1,7 @@
 Host ali
 User root
 HostName 39.96.48.75
-IdentityFile .travis/ali_centos7.5_rsa
+IdentityFile ~/.ssh/ali_centos7.5_rsa
 Port 54322
 StrictHostKeyChecking no
 IdentitiesOnly yes
