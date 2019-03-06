@@ -1,11 +1,8 @@
 language: node_js
 node_js:
 - 10.14.2
-
 after_script:
-#构建完毕⾃自动将代码分发到远程主机
 - scp -o StrictHostKeyChecking=no app.js root@39.96.48.75:/home/www/webpack-mpa
-
 before_install:
-- openssl aes-256-cbc -K $encrypted_0bd12b59818e_key -iv $encrypted_0bd12b59818e_iv
-  -in ali_centos7.5_rsa.enc -out ali_centos7.5_rsa -d
+- openssl aes-256-cbc -K $encrypted_945f488607d4_key -iv $encrypted_945f488607d4_iv
+  -in ali_centos7.5_rsa.enc -out .travis/ali_centos7.5_rsa -d
