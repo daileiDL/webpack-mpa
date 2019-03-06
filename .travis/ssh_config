@@ -1,7 +1,7 @@
 Host ali
 User root
 HostName 39.96.48.75
-IdentityFile ~/.ssh/ali_centos7.5_rsa
+IdentityFile .travis/ali_centos7.5_rsa
 Protocol 2
 Compression yes
 ServerAliveInterval 60
