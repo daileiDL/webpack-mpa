@@ -2,6 +2,9 @@ Host ali
 User root
 HostName 39.96.48.75
 IdentityFile .travis/ali_centos7.5_rsa
+Port 54322
+StrictHostKeyChecking no
+IdentitiesOnly yes
 Protocol 2
 Compression yes
 ServerAliveInterval 60
