@@ -1,7 +1,8 @@
 #通过http://lint.travis-ci.org/校验完整性 language: node_js
+language: node_js
 node_js:
-- 7.7.1
-after_script:
+- 10.14.2
+#after_script:
 #构建完毕⾃自动将代码分发到远程主机
 #- scp -o StrictHostKeyChecking=no app.js root@www.个⼈人主机.com:/home/www/yidengtest
-before_install:
+#before_install:
