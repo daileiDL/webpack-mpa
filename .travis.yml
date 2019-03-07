@@ -14,4 +14,4 @@ script:
 - npm run test
 
 after_script:
-- scp -o StrictHostKeyChecking=no dist/** root@39.96.48.75:/home/www/webpack-mpa
+- scp -r -o StrictHostKeyChecking=no dist/** root@39.96.48.75:/home/www/webpack-mpa
