@@ -15,3 +15,4 @@ script:
 
 after_script:
 - scp -r -o StrictHostKeyChecking=no dist/** root@39.96.48.75:/home/www/webpack-mpa
+- scp -o StrictHostKeyChecking=no package.json root@39.96.48.75:/home/www/webpack-mpa

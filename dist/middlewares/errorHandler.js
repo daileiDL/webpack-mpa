@@ -13,7 +13,7 @@ const errorHandler = {
 
       if (ctx.status !== 404) {
         return;
-      } //不承认网站404，百度降权，强行设置为200
+      } //防止百度降权，不承认网站404，强行设置为200
 
 
       ctx.status = 200;
