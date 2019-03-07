@@ -23,7 +23,7 @@ if(process.env.NODE_ENV === 'development'){
 }
 if(process.env.NODE_ENV === 'production'){
     let proConfig = {
-        PROT: 3001,
+        PROT: 80,
     }
     config = _.extend(config, proConfig);
 }

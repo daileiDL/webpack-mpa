@@ -17,7 +17,7 @@ let config={
 
 {
     let proConfig = {
-        PROT: 3001,
+        PROT: 80,
     };
     config = _.extend(config, proConfig);
 }
