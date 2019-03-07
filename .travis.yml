@@ -11,6 +11,7 @@ before_install:
 
 script:
 - npm run build
+- npm run test
 
 after_script:
-- scp -o StrictHostKeyChecking=no dist/app.js root@39.96.48.75:/home/www/webpack-mpa
+- scp -o StrictHostKeyChecking=no dist/** root@39.96.48.75:/home/www/webpack-mpa
